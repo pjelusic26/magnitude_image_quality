@@ -4,12 +4,12 @@ In image steganography, each data embedding process results in image quality deg
 
 The goal of this project is to develop a model that will be able to estimate the signal strength needed for the result image to be within a certain quality range. To do so, the dataset (consisted of 9545 512x512 grayscale images) will include:
 
-- Numerical data
-  - magnitude coefficients of the frequency domain
-  - PSNR values after data embedding
-  - signal strength (gamma)
+- **Numerical data**
+  - **magnitude coefficients** of the frequency domain
+  - **PSNR values** after data embedding
+  - signal strength **(gamma)**
 
-- Image data
+- **Image data**
   - 32x32 grayscale images
 
 As the output, the model will give an estimation of **gamma** needed for a fixed PSNR value.
