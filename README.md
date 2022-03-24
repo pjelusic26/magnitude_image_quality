@@ -13,3 +13,10 @@ The goal of this project is to develop a model that will be able to estimate the
   - 32x32 grayscale images
 
 As the output, the model will give an estimation of **gamma** needed for a fixed PSNR value.
+
+**Notes:**
+
+- Link to dataset not yet available
+- The goal is to present a working Python script (or Jupyter Notebook) with visible predictions and model evaluation
+- Method used for data embedding:
+  - https://github.com/Call1st0/dft-based-watermarking-method-with-GCR-masking
